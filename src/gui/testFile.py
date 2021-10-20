@@ -6,35 +6,33 @@ root = Tk()
 root.title("Crime in the UK")
 root.geometry("300x250")
 
-# Dropdown menu options
-LOCATIONOPTIONS = [
-    "London",
-    "Wilshire",
-    "Manchester",
-    "York"
-]
+class locationDropdown:
 
-CATEGORYOPTIONS = [
-    "Burglary",
-    "Murder",
-    "Rape",
-    "Tax evasion"
-]
+    LOCATIONOPTIONS = [
+        "London",
+        "Wilshire",
+        "Manchester",
+        "York"
+    ]
 
-# datatype of menu text
-clickedLoc = StringVar()
-clickedCat = StringVar()
+    clickedLoc = StringVar()
+    clickedLoc.set("Select Location")
+    drop1 = OptionMenu(root, clickedLoc, *LOCATIONOPTIONS)
+    drop1.pack()
 
-# initial menu text
-clickedLoc.set("Select Location")
-clickedCat.set("Select Category")
+class categoryDropdown:
 
-# Create Dropdown menu
-drop1 = OptionMenu(root, clickedLoc, *LOCATIONOPTIONS)
-drop2 = OptionMenu(root, clickedCat, *CATEGORYOPTIONS)
+    CATEGORYOPTIONS = [
+        "Burglary",
+        "Murder",
+        "Rape",
+        "Tax evasion"
+    ]
 
-drop1.pack()
-drop2.pack()
+    clickedCat = StringVar()
+    clickedCat.set("Select Category")
+    drop2 = OptionMenu(root, clickedCat, *CATEGORYOPTIONS)
+    drop2.pack()
 
 # Execute tkinter
 root.mainloop()
