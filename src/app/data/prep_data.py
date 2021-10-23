@@ -1,3 +1,4 @@
+import pandas
 from src.app.api.api import *
 
 
@@ -10,6 +11,7 @@ def create_dataframe(category, list_of_category, locations, list_of_locations, t
     return data_frame
 
 
+# gets list of crime data of each location
 def prepare_data(category, locations, time_span):
     # initialize list of neighbourhood ids
     neighbourhood_ids = []
@@ -60,3 +62,18 @@ def prepare_data(category, locations, time_span):
 
     # return list of crimes of each neighbourhood of each location
     return crimes_per_location
+
+
+# prepares data for category dropdown on gui
+def prepare_dropdown_categories():
+    fetched_categories = fetch_categories()
+    categories = [x['name'] for x in fetched_categories]
+    return categories
+
+
+# prepares data for locations dropdown on gui
+def prepare_dropdown_locations():
+    with open(r'D:\_user\education\IAP18B\M152\criminalityUK\src\app\json\counties_uk.json') as counties:
+        fetched_locations = json.load(counties)
+    locations = [x['name'] for x in fetched_locations]
+    return locations
