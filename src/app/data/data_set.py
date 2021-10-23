@@ -1,5 +1,4 @@
-import pandas
-from api import *
+from src.app.api.api import *
 
 
 def create_dataframe(category, list_of_category, locations, list_of_locations, time_span, list_of_timesteps):
