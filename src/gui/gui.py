@@ -2,6 +2,7 @@ from tkinter import *
 
 # Initializes Tkinter
 root = Tk()
+root.title("Criminality UK")
 
 
 # Functions
