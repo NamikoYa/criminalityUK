@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Bedfordshire",
+    "region": "East",
+    "cities": [
+      "Luton",
+      "Bedford",
+      "Dunstable",
+      "Leighton Buzzard"
+    ]
+  },
+  {
+    "name": "Cambridgeshire",
+    "region": "East",
+    "cities": [
+      "Peterborough",
+      "Cambridge",
+      "Wisbech",
+      "St Neots"
+    ]
+  }
+]
