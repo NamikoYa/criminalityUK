@@ -18,5 +18,359 @@
       "Wisbech",
       "St Neots"
     ]
+  },
+  {
+    "name": "Cheshire",
+    "region": "North West",
+    "cities": [
+      "Warrington",
+      "Chester",
+      "Crewe",
+      "Runcorn",
+      "Widnes",
+      "Ellesmere Port",
+      "Macclesfield",
+      "Wilmslow",
+      "Winsford",
+      "Congleton"
+    ]
+  },
+  {
+    "name": "Cumbria",
+    "region": "North West",
+    "cities": [
+      "Carlisle",
+      "Kendal",
+      "Barrow-in-Furness",
+      "Workington"
+    ]
+  },
+  {
+    "name": "Derbyshire",
+    "region": "East Midlands",
+    "cities": [
+      "Derby",
+      "Chesterfield",
+      "Swadlincote",
+      "Ilkeston",
+      "Long Eaton"
+    ]
+  },
+  {
+    "name": "Dorset",
+    "region": "South West",
+    "cities": [
+      "Bournemouth",
+      "Poole",
+      "Weymouth",
+      "Christchurch",
+      "Ferndown"
+    ]
+  },
+  {
+    "name": "Durham",
+    "region": "North East",
+    "cities": [
+      "Darlington",
+      "Hartlepool",
+      "Stockton-on-Tees",
+      "Durham",
+      "Billingham",
+      "Peterlee",
+      "Newton Aycliffe"
+    ]
+  },
+  {
+    "name": "Essex",
+    "region": "East",
+    "cities": [
+      "Southend-on-Sea",
+      "Colchester",
+      "Chelmsford",
+      "Basildon",
+      "Harlow",
+      "Grays",
+      "Brentwood",
+      "Clackton-on-Sea",
+      "Braintree",
+      "Canvey Island",
+      "Billericay",
+      "Wickford",
+      "Loughton",
+      "Stanford-le-Hope",
+      "Witham"
+    ]
+  },
+  {
+    "name": "Gloucestershire",
+    "region": "South West",
+    "cities": [
+      "Gloucester",
+      "Cheltenham",
+      "Filton",
+      "Stroud",
+      "Yate"
+    ]
+  },
+  {
+    "name": "Sussex",
+    "region": "South East",
+    "cities": [
+      "Brighton and Hove",
+      "Eastbourne",
+      "Hastings",
+      "Bexhill-on-Sea",
+      "Worthing",
+      "Crawley",
+      "Bognor Regis",
+      "Littlehampton",
+      "Shoreham-by-Sea",
+      "Horsham",
+      "Haywards Heath",
+      "Burgess Hill",
+      "East Grinstead",
+      "Chichester"
+    ]
+  },
+  {
+    "name": "Hampshire",
+    "region": "South East",
+    "cities": [
+      "Southampton",
+      "Portsmouth",
+      "Basingstoke",
+      "Eastleigh",
+      "Gosport",
+      "Farnborough",
+      "Andover",
+      "Aldershot",
+      "Horndean",
+      "Winchester",
+      "Havant",
+      "Fareham",
+      "Fleet",
+      "Totton",
+      "Hedge End"
+    ]
+  },
+  {
+    "name": "Hertfordshire",
+    "region": "East",
+    "cities": [
+      "Watford",
+      "Hemel",
+      "Hempstead",
+      "Stevenage",
+      "St Albans",
+      "Welwyn Garden City",
+      "Cheshunt",
+      "Hoddesdon",
+      "Bishop's Stortford",
+      "Hatfield",
+      "Borehamwood",
+      "Hitchin",
+      "Letchworth",
+      "Harpenden",
+      "Hertford",
+      "Bushey"
+    ]
+  },
+  {
+    "name": "Kent",
+    "region": "South East",
+    "cities": [
+      "Maidstone",
+      "Gillingham",
+      "Dartford",
+      "Chatham",
+      "Ashford",
+      "Rochester",
+      "Margate",
+      "Royal Tunbridge",
+      "Wells",
+      "Gravesend",
+      "Canterbury",
+      "Folkestone",
+      "Sittingbourne",
+      "Dover",
+      "Ramsgate",
+      "Tonbridge",
+      "Herne Bay",
+      "Whitstable",
+      "Deal",
+      "Sevenoaks",
+      "Northfleet"
+      ]
+  },
+  {
+    "name": "Lancashire",
+    "region": "North West",
+    "cities": [
+      "Blackpool",
+      "Blackburn",
+      "Preston",
+      "Burnley",
+      "Bamber",
+      "Bridge",
+      "Lancaster",
+      "Lytham",
+      "St Anne's",
+      "Leyland",
+      "Chorley",
+      "Fulwood",
+      "Accrington",
+      "Skelmersdale",
+      "Morecambe",
+      "Nelson",
+      "Darwen",
+      "Fleetwood"
+    ]
+  },
+  {
+    "name": "Leicestershire",
+    "region": "East Midlands",
+    "cities": [
+      "Leister",
+      "Loughborough",
+      "Hinckley",
+      "Coalville",
+      "Melton Mowbray"
+    ]
+  },
+  {
+    "name": "Lincolnshire",
+    "region": "East Midlands/Yorkshire and the Humber",
+    "cities": [
+      "Lincoln",
+      "Grimsby",
+      "Scunthorpe",
+      "Grantham",
+      "Boston",
+      "Cleepthorpes",
+      "Spalding"
+    ]
+  },
+  {
+    "name": "Merseyside",
+    "region": "North West",
+    "cities": [
+      "Liverpool",
+      "Birkenhead",
+      "St Helens",
+      "Southport",
+      "Wallasey",
+      "Bebington",
+      "Bootle",
+      "Crosby",
+      "Kirkby",
+      "Prescot",
+      "Heswall",
+      "Maghull"
+    ]
+  },
+  {
+    "name": "Norfolk",
+    "region": "East",
+    "cities": [
+      "Norwich",
+      "King's Lynn",
+      "Great Yarmouth"
+    ]
+  },
+  {
+    "name": "Northamptonshire",
+    "region": "East Midlands",
+    "cities": [
+      "Northampton",
+      "Kettering",
+      "Corby",
+      "Wellingborough",
+      "Rushden",
+      "Daventry"
+    ]
+  },
+  {
+    "name": "Nottinghamshire",
+    "region": "East Midlands",
+    "cities": [
+      "Nottingham",
+      "Mansfield",
+      "Beeston",
+      "Carlton",
+      "Sutton-in-Ashfield",
+      "West Bridgford",
+      "Worksop",
+      "Arnold",
+      "Newark-on-Trent",
+      "Hucknall",
+      "Kirkby-in-Ashfield"
+    ]
+  },
+  {
+    "name": "Staffordshire",
+    "region": "West Midlands",
+    "cities": [
+      "Stoke-on-Trent",
+      "Tamworth",
+      "Newcastle-under-Lyme",
+      "Burton-upon-Trent",
+      "Stafford",
+      "Lichfield",
+      "Cannock",
+      "Burntswood",
+      "Kidsgrove"
+    ]
+  },
+  {
+    "name": "Suffolk",
+    "region": "East",
+    "cities": [
+      "Ipswich",
+      "Lowestoft",
+      "Bury St Edmunds",
+      "Haverhill"
+    ]
+  },
+  {
+    "name": "Surrey",
+    "region": "South East",
+    "cities": [
+      "Woking",
+      "Guildford",
+      "Walton-on-Thames",
+      "Ewell",
+      "Esher",
+      "Camberley",
+      "Redhill",
+      "Leatherhead",
+      "Epsom",
+      "Weybridge",
+      "Ashford",
+      "Egham",
+      "Staines",
+      "Farnham"
+    ]
+  },
+  {
+    "name": "Warwickshire",
+    "region": "West Midlands",
+    "cities": [
+      "Nuneaton",
+      "Rugby",
+      "Royal Leamington Spa",
+      "Warwick",
+      "Bedworth",
+      "Stratford-upon-Avon"
+    ]
+  },
+  {
+    "name": "Wiltshire",
+    "region": "South West",
+    "cities": [
+      "Swindon",
+      "Salisbury",
+      "Twobridge",
+      "Chippenham"
+    ]
   }
 ]
