@@ -1,7 +1,5 @@
 from src.app.data_processing import prep_data
-from src.app.api import api
 import json
-import numpy as np
 
 
 def calculate_crime_rate_by_location_date(category, location, date):

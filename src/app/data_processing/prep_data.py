@@ -1,14 +1,4 @@
-import pandas
 from src.app.api.api import *
-
-
-def prepare_dataframe(category, list_of_category, locations, list_of_locations, time_span, list_of_timesteps):
-    data_frame = {
-        category: [list_of_category],
-        locations: [list_of_locations],
-        time_span: [list_of_timesteps]
-    }
-    return data_frame
 
 
 # get list of crimes per neighbourhood of one location
@@ -74,26 +64,3 @@ def prepare_locations_for_table(locations):
     for location in locations:
         list_of_locations.append(f'{location}')
     return list_of_locations
-
-
-# prepare user input category for table
-def prepare_category_for_table(locations, category):
-    list_of_categories = []
-    for i, location in enumerate(locations):
-        if i == 0:
-            list_of_categories.append(f'{category}')
-        else:
-            list_of_categories.append('')
-
-    return list_of_categories
-
-
-# prepare user input time span for table
-def prepare_time_for_table(locations, year, month):
-    list_of_dates = []
-    for i, location in enumerate(locations):
-        if i == 0:
-            list_of_dates.append(f'{year}-{month}')
-        else:
-            list_of_dates.append('')
-    return list_of_dates
