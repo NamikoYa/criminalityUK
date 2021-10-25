@@ -21,8 +21,7 @@ Additionally you have to install some libraries to not get any errors. To do so,
 
 1. open a terminal
 2. install libraries with command lines:
-	- python requests
-	- python json
+	- pip install requests
 	- python -m pip install -U matplotlib
 	- pip install numpy
 	- pip install pysimplegui
