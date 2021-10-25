@@ -8,7 +8,9 @@ Dowloads for windows: https://www.python.org/downloads/windows/
 Downloads for macos: https://www.python.org/downloads/macos/ 
 other: https://www.python.org/download/other/ 
 
-**Important:** make sure pip is installed!
+Recommended version: 3.8.10
+
+**Important:** make sure pip is installed and enviromental variabel is set!
 
 check installation in terminal:
 - python -V
